@@ -64,7 +64,7 @@ st.image(image, caption='Mean Absolute Error of First 10,000 Sample')
 
 chart_data = pd.DataFrame(
     a_np,
-    columns=['a', 'b'])
+    columns=['Predicted Blood Pressure', 'Actual Blood Pressure'])
 
 
 st.line_chart(chart_data)
